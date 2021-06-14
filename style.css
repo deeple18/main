@@ -1,0 +1,36 @@
+body {background-color:black;}
+h1{
+color:grey;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-left:20px;
+}
+#inter{
+margin-top:10px;
+margin-left:70px;
+font-weight:bold;
+}
+#common
+{
+background-color:white;
+margin-left:auto;
+margin-right:auto;
+margin-top:20px;
+width:40%;
+border-radius: 25px;
+padding-top:10px;
+}
+#years{
+width:40px;
+}
+#rate{
+font-weight:bold;
+}
+p
+{
+margin-left:20px;
+}
+#result
+{
+font-weight:bold;
+margin-left:70px;
+}
