@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
-<div id="maindic">
+<div id="maindiv">
  <h1>Simple Interest Calculator</h1>
 <div id="inter">
         Amount &nbsp; <input type="number"  id="principal" onchange="validateAmount()">  <br/>
@@ -25,11 +25,14 @@
             <option value="9">9</option>
             <option value="10">10</option>
           </select><br/>
+<br>
         <button onclick="compute()">Compute Interest</button>
 </div>
 &nbsp;
-<span id="result"></span>
-<footer>&#169; Everyone Can Get Rich</footer>
+<br/>
+<div id="result"></div>
+<p><b><span>&copy;</span>&nbsp;Everyone Can Get Rich</b></p>
 </div>    
 </body>
 </html>
+
